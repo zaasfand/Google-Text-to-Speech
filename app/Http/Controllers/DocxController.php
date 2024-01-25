@@ -96,7 +96,7 @@ class DocxController extends Controller
                 ];
     
                 curl_setopt_array($curl, array(
-                    CURLOPT_URL => 'https://texttospeech.googleapis.com/v1/text:synthesize?key=AIzaSyDJXezi0ils4Iuh1Oh12nHj4QCoRqsePbc',
+                    CURLOPT_URL => 'https://texttospeech.googleapis.com/v1/text:synthesize?key=Your-API-Key',
                     CURLOPT_RETURNTRANSFER => true,
                     CURLOPT_ENCODING => '',
                     CURLOPT_MAXREDIRS => 10,
